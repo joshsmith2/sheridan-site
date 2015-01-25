@@ -73,17 +73,13 @@ address{
     margin-bottom: 9px
 }
 
-.web-addresses{
-    height: 36px
-}
-
-#long-address{
-    font-size: 13.7px
-}
-
 #link-container{
     margin-top:10px;
     padding: 15px 60px
+}
+
+.phone-number{
+    margin: 9px 0 0;
 }
 
 #links{
