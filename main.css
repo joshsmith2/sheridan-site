@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    margin: -8px 0 0;
+    margin: -10px 0 0;
     font-family: 'Raleway', sans-serif;
     background-image: url('img/centred_grayed.jpg');
     background-size: contain;
@@ -29,21 +29,17 @@ body{
 h1{
     font-size: 6.2em;
     font-weight: 200;
+    margin: 0 auto 10px;
 }
 
 #title2{
     font-weight: 400;
     font-size:  2em;
-    margin-top: 0px;
-}
-#title3{
-    font-weight: 300;
-    font-size: 1.5em
+    margin: 0 auto 30px;
 }
 
 #titles > h1, #titles > h2 {
     text-align: center;
-    margin: 10px auto
 }
 
 a{
