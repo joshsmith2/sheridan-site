@@ -5,9 +5,11 @@ html{
 body{
     margin: -10px 0 0;
     font-family: 'Raleway', sans-serif;
-    background-image: url('img/centred_grayed.jpg');
+    background-image: url('img/centred_black_fade.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    padding-bottom: 180px;
+    max-width: 1700px;
 }
 
 .container{
