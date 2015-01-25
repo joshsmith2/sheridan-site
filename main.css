@@ -42,6 +42,10 @@ h1{
     text-align: center;
 }
 
+#biog-link{
+    margin-bottom: 0px
+}
+
 a{
     text-decoration: none;
     color: rgb(216, 85, 85);
@@ -81,10 +85,18 @@ address{
 #links{
     width: 360px;
     float: left;
+    margin-top:30px;
 }
 
-#links p{
-    margin: 2px 0
+#links img {
+    height: 32px;
+    width: 32px;
+    margin-right: 2px;
+    opacity: 0.8
+}
+
+#links img:hover{
+    opacity: 1
 }
 
 
