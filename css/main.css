@@ -22,7 +22,6 @@ a{
 }
 
 .text-container {
-    border: solid black 1px;
     background-color: white;
     padding: 30px 0;
     overflow: hidden;
@@ -55,8 +54,8 @@ h1{
 /* Contacts */
 
 #contact-box{
-    width: 960px;
-    margin: 0 auto;
+    width: 840px;
+    margin-left: 120px;
 }
 
 .contact-details{
@@ -97,6 +96,13 @@ address{
     bottom:0;
 }
 
+#footer > a {
+    text-transform: uppercase;
+    color: white;
+    float: left;
+    margin: 8px 0 0 20px;
+}
+
 #social{
     float: right;
     margin-right:10px;
@@ -105,8 +111,8 @@ address{
 #social img {
     height: 32px;
     width: 32px;
-    margin-right: 2px;
-    opacity: 1
+    margin: 2px 2px 0 0;
+    opacity: 1;
 }
 
 /* Responsive design */
