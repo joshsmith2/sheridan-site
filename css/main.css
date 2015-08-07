@@ -51,6 +51,21 @@ h1{
     margin: 0 auto;
 }
 
+/* Video */
+.slide{
+    width: 620px;
+    height: 310px;
+    margin: 10px auto;
+}
+
+#slide1{
+    background-color: #3a934a;
+}
+
+#slide2{
+    background-color: #1f6377;
+}
+
 /* Contacts */
 
 #contact-box{
