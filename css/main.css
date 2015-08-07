@@ -17,7 +17,7 @@ a{
 
 /* Containers */
 .container{
-    margin: 0 auto;
+    margin: 30px auto;
     width: 960px;
 }
 
