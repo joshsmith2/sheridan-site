@@ -15,12 +15,29 @@
 
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/jquery.anythingslider.min.js"></script>
+    <script src="js/jquery.anythingslider.video.min.js"></script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/anything/anythingslider.css">
+    <link rel="stylesheet" type="text/css" href="css/anything/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/anything/theme-minimalist-square.css">
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#slider').anythingSlider({
+               theme: "minimalist-square",
+               buildNavigation: false,
+               buildStartStop: false,
+               infiniteSlides: false
+            }).anythingSliderVideo({
+
+        });
+
+         ; // add any non-default options here
+    });
+    </script>
 </head>
 <body>
     <div id="main-container" class="container">
@@ -30,11 +47,9 @@
         </div>
 
         <div id="video-box">
-            <div id="video">
-                <div class="section">
-                    <div class="slide" id="slide1"></div>
-                    <div class="slide" id="slide2"></div>
-                </div>
+            <div id="slider">
+                <iframe src="https://player.vimeo.com/video/8837024?color=ffffff&title=0&byline=0&portrait=0" width="700" height="390" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/5324878?color=ffffff&title=0&byline=0&portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
 
@@ -106,14 +121,5 @@
             </a>
         </div>
     </div>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('#video').fullpage({
-                autoScrolling: false,
-                fitToSection: false,
-                resize: false
-            });
-        });
-    </script>
 </body>
 </html>
