@@ -130,11 +130,11 @@ address{
     opacity: 1;
 }
 
-/* Responsive design */
+/* Responsive design 
 @media (max-width: 960px){
     .container {
         width: 480px;
         padding: 30px 60px;
     }
-}
+}*/
 
