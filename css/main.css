@@ -9,10 +9,16 @@ body{
     max-width: 1700px;
 }
 
-/* Generic font formatting */
+/* Generic formatting */
 a{
     text-decoration: none;
     color: rgb(216, 85, 85);
+}
+
+button{
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
 }
 
 /* Containers */
@@ -108,14 +114,26 @@ address{
     position: fixed;
     width: 100%;
     left:0;
+    text-transform: uppercase;
+    color: white;
     bottom:0;
 }
 
 #footer > a {
-    text-transform: uppercase;
-    color: white;
     float: left;
     margin: 8px 0 0 20px;
+}
+
+/* Plangular soundcloud player */
+#track-name{
+    width: 200px;
+    overflow: hidden;
+    height: 20px;
+}
+
+#soundcloud-player > div > *{
+    margin: 8px 0 0 20px;
+    float: left;
 }
 
 #social{
