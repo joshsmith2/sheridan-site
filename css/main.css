@@ -12,7 +12,14 @@ body{
 /* Generic formatting */
 a{
     text-decoration: none;
+}
+
+#contact-box a{
     color: rgb(216, 85, 85);
+}
+
+footer a{
+    color: white;
 }
 
 button{
@@ -48,13 +55,13 @@ button{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: "Futura LT Heavy", sans-serif;
 }
 
 #title2{
     font-weight: 400;
-    font-size:  1.5em;
+    font-size:  1.25em;
     margin: 0 auto;
 }
 
@@ -128,18 +135,40 @@ footer > a {
 }
 
 /* Plangular soundcloud player */
-#track-name{
-    width: 200px;
+.marquee{
+    white-space: nowrap;
     overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee span{
+    display: inline-block;
+    text-indent: 0;
+}
+
+.marquee span:hover{
+    animation: marquee 30s linear infinite;
+}
+
+.track-name{
+    max-width: 500px;
     height: 20px;
+    font-size: 10pt;
+    padding-top: 1px;
+}
+
+@keyframes marquee{
+    0% {transform: translate(0,0);}
+    100% {transform: translate(-100%,0);}
 }
 
 #soundcloud-player > div > *{
     float: left;
 }
 
-#playback-controls, #track-name{
+#playback-controls, .track-name{
     margin-top: 8px;
+    margin-left: 16px;
 }
 
 #playback-controls > button {
@@ -150,15 +179,34 @@ footer > a {
 }
 
 progress{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    color: rgb(216,85,85);
     display: block;
     width: 250px;
     height: 8px;
     border:0;
     overflow: hidden;
     cursor: pointer;
-    margin-top: 16px;
+    margin-top: 14px;
+    margin-left: 20px;
 }
 
+/* inside of bar */
+progress::-webkit-progress-bar{
+    background-color: #eee;
+}
+
+/* 'Progressed' section of bar */
+progress::-webkit-progress-value{
+    background-color: rgb(216, 85, 85);
+}
+
+progress::-moz-progress-bar{
+    background-color: rgb(216, 85, 85);
+}
 
 #social{
     float: right;
@@ -166,9 +214,9 @@ progress{
 }
 
 #social img {
-    height: 32px;
-    width: 32px;
-    margin: 2px 2px 0 0;
+    height: 24px;
+    width: 24px;
+    margin: 6px 6px 0 0;
     opacity: 1;
 }
 
@@ -182,4 +230,3 @@ progress{
         padding: 30px 60px;
     }
 }
-

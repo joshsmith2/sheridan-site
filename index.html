@@ -123,6 +123,9 @@
         <a href="#contacts">Contact</a>
         <!--<div id="soundcloud-player" plangular="https://soundcloud.com/sheridan-tongue/tracks">-->
         <div id="soundcloud-player" plangular="https://soundcloud.com/sheridan-tongue/tracks">
+            <script type="text/javascript">
+
+            </script>
             <div ng-if="track">
                 <div id="playback-controls">
                     <button ng-click="previous()">
@@ -144,7 +147,10 @@
                         </svg>
                     </button>
                 </div>
-                <p id="track-name" ng-href="{{track.permalink_url}}">{{track.title}}</p>
+
+                <!-- Hack to display first track name before playing -->
+                <a class="track-name marquee" ng-href="{{track.permalink_url}}" ng-hide="index !== 0"><span>{{tracks[0].title}}</span></a>
+                <a class="track-name marquee" ng-href="{{track.permalink_url}}" ng-hide="index === 0"><span>{{track.title}}</span></a>
                 <progress ng-value="currentTime / duration || 0"
                           ng-click="seek($event)"
                           ng-value="currentTime / duration">
