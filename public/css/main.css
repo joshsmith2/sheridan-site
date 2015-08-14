@@ -147,11 +147,11 @@ footer > a {
 }
 
 .marquee span:hover{
-    animation: marquee 30s linear infinite;
+    animation: marquee 20s linear infinite;
 }
 
 .track-name{
-    max-width: 500px;
+    max-width: 350px;
     height: 20px;
     font-size: 10pt;
     padding-top: 1px;
