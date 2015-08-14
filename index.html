@@ -118,20 +118,32 @@
         </div>
     </div>
 
-    <div id="footer">
+    <footer>
         <a>Projects</a>
         <a href="#contacts">Contact</a>
         <!--<div id="soundcloud-player" plangular="https://soundcloud.com/sheridan-tongue/tracks">-->
         <div id="soundcloud-player" plangular="https://soundcloud.com/sheridan-tongue/tracks">
             <div ng-if="track">
-                <button ng-click="playPause(index)" title="Play/Pause">
-`                   <svg ng-if="player.playing !== track.src" class="icon geomicon ng-scope" data-icon="play" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
-                        <path d="M2 2 L18 10 L2 18 z "></path>
-                    </svg>
-                    <svg ng-if="player.playing === track.src" class="icon geomicon ng-scope" data-icon="pause" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
-                        <path d="M2 2 L7 2 L7 18 L2 18 z M11 2 L16 2 L16 18 L11 18 z"></path>
-                    </svg>
-                </button>
+                <div id="playback-controls">
+                    <button ng-click="previous()">
+                        <svg class="icon ng-scope" data-icon="next" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
+                            <path d="M4 4 L7 4 L7 16 L4 16 z M15 4 L15 16 L6 10 z "></path>
+                        </svg>
+                    </button>
+                    <button ng-click="playPause(index)" title="Play/Pause">
+                        <svg ng-if="player.playing !== track.src" class="icon geomicon ng-scope" data-icon="play" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
+                            <path d="M2 2 L18 10 L2 18 z "></path>
+                        </svg>
+                        <svg ng-if="player.playing === track.src" class="icon geomicon ng-scope" data-icon="pause" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
+                            <path d="M2 2 L7 2 L7 18 L2 18 z M11 2 L16 2 L16 18 L11 18 z"></path>
+                        </svg>
+                    </button>
+                    <button ng-click="next()">
+                        <svg class="icon ng-scope" data-icon="next" viewBox="0 0 20 20" width="20" height="20" style="fill:white">
+                            <path d="M4 4 L14 10 L4 16 z M12 4 L15 4 L15 16 L12 16 z"></path>
+                        </svg>
+                    </button>
+                </div>
                 <p id="track-name" ng-href="{{track.permalink_url}}">{{track.title}}</p>
                 <progress ng-value="currentTime / duration || 0"
                           ng-click="seek($event)"
@@ -149,7 +161,7 @@
                 <img src="img/icons/twitter_white.png" alt="Twitter">
             </a>
         </div>
-    </div>
+    </footer>
 
     <!-- Initialise soundcloud player -->
     <script type="text/javascript">

@@ -19,6 +19,7 @@ button{
     background-color: transparent;
     border-width: 0px;
     outline: none;
+    padding: 0px;
 }
 
 /* Containers */
@@ -108,7 +109,7 @@ address{
 }
 
 /* Footer */
-#footer{
+footer{
     height: 36px;
     background-color: black;
     position: fixed;
@@ -117,9 +118,11 @@ address{
     text-transform: uppercase;
     color: white;
     bottom:0;
+    /* A quick hack before responsive stuff is built */
+    min-width: 1024px;
 }
 
-#footer > a {
+footer > a {
     float: left;
     margin: 8px 0 0 20px;
 }
@@ -132,9 +135,30 @@ address{
 }
 
 #soundcloud-player > div > *{
-    margin: 8px 0 0 20px;
     float: left;
 }
+
+#playback-controls, #track-name{
+    margin-top: 8px;
+}
+
+#playback-controls > button {
+    height:20px;
+    width:20px;
+    margin: 0 5px;
+    float: left;
+}
+
+progress{
+    display: block;
+    width: 250px;
+    height: 8px;
+    border:0;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
 
 #social{
     float: right;
@@ -149,6 +173,9 @@ address{
 }
 
 /* Responsive design */
+@media (min-width: 1024px){
+}
+
 @media (max-width: 960px){
     .container {
         width: 480px;
