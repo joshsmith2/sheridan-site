@@ -220,13 +220,8 @@ progress::-moz-progress-bar{
     opacity: 1;
 }
 
-/* Responsive design */
+/* Breakpoints */
 @media (min-width: 1024px){
-}
-
-@media (max-width: 960px){
-    .container {
-        width: 480px;
-        padding: 30px 60px;
     }
-}
+@media (max-width: 960px){
+    }
