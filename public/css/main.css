@@ -6,7 +6,7 @@ body{
     font-family: 'Futura LT Light', sans-serif;
     padding-bottom: 180px;
     max-width: 1700px;
-/*    background-color: #bfbfbf; */
+/*    background-color: #545454;*/
 }
 
 /* Generic formatting */
@@ -26,7 +26,6 @@ button{
 }
 
 /* Slider */
-
 .slider{
     list-style: none;
     overflow-y: auto;
@@ -34,8 +33,8 @@ button{
 }
 
 #video-slider {
-	width: 700px;
-	height: 390px;
+	width: 960px;
+	height: 640px;
 }
 
 #gallery-slider {
@@ -51,16 +50,18 @@ button{
     width: 960px;
     background-color: white;
     margin: auto;
+    padding-top: 30px
 }
 
-.container{
-    margin: 30px auto;
-}
 
 .text-container {
     background-color: white;
     padding: 30px;
     overflow: hidden;
+}
+
+.slider-wrapper{
+    margin-left: -30px;
 }
 
 /* Titles */
@@ -69,7 +70,7 @@ button{
     font-weight: 300;
     color: black;
     text-align: center;
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
 }
 
 #titles > *{
@@ -103,10 +104,6 @@ h2{
 }
 
 /* Gallery */
-
-#gallery-wrapper{
-   margin-left: -30px /*Balance anythingslider's padding*/
-}
 
 .caption {
     position: absolute;
