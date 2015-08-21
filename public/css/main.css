@@ -6,7 +6,7 @@ body{
     font-family: 'Futura LT Light', sans-serif;
     padding-bottom: 180px;
     max-width: 1700px;
-    background-color: #545454;
+    background-image: url('../img/textures/concrete_seamless.png');
 }
 
 /* Generic formatting */
@@ -50,13 +50,14 @@ button{
     width: 960px;
     background-color: white;
     margin: auto;
-    padding-top: 30px
+    padding-top: 30px;
+    box-shadow: 0 2px 5px #AAA;
 }
 
 
 .text-container {
     background-color: white;
-    padding: 30px;
+    padding: 36px;
     overflow: hidden;
 }
 
