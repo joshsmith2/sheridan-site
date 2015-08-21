@@ -5,18 +5,7 @@
 	based on work by Remy Sharp: http://jqueryfordesigners.com/
 */
 
-/*****************************
-  SET DEFAULT DIMENSIONS HERE
- *****************************/
-/* change the ID & dimensions to match your slider */
-#slider {
-	width: 700px;
-	height: 390px;
-	list-style: none;
-	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
-	overflow-y: auto;
-	overflow-x: hidden;
-}
+
 
 /******************
   SET STYLING HERE

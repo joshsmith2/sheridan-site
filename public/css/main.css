@@ -14,9 +14,7 @@ a{
     text-decoration: none;
 }
 
-#contact-box a{
-    color: rgb(216, 85, 85);
-}
+
 
 footer a{
     color: white;
@@ -29,6 +27,27 @@ button{
     padding: 0px;
 }
 
+/* Slider */
+
+.slider{
+    list-style: none;
+    /* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#video-slider {
+	width: 700px;
+	height: 390px;
+}
+
+#gallery-slider {
+    width: 960px;
+    height: 640px;
+    padding-left:0
+}
+
+
 /* Containers */
 .container{
     margin: 30px auto;
@@ -37,7 +56,7 @@ button{
 
 .text-container {
     background-color: white;
-    padding: 30px 0;
+    padding: 30px;
     overflow: hidden;
 }
 
@@ -72,12 +91,21 @@ h1{
     margin: 10px auto;
 }
 
-#slide1{
-    background-color: #3a934a;
+/* Gallery */
+
+#gallery-wrapper{
+   margin-left: -30px /*Balance anythingslider's padding*/
 }
 
-#slide2{
-    background-color: #1f6377;
+.caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    height: 20px;
+    font-size: 1em;
+    background-color: black;
+    padding: 5px 0 5px 12px;
 }
 
 /* Contacts */
@@ -85,6 +113,10 @@ h1{
 #contact-box{
     width: 840px;
     margin-left: 120px;
+}
+
+#contact-box a{
+    color: rgb(216, 85, 85);
 }
 
 .contact-details{
