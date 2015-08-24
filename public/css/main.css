@@ -6,7 +6,6 @@ body{
     font-family: 'Futura LT Light', sans-serif;
     padding-bottom: 180px;
     max-width: 1700px;
-    background-image: url('../img/textures/concrete_seamless.png');
 }
 
 /* Generic formatting */
@@ -51,7 +50,6 @@ button{
     background-color: white;
     margin: auto;
     padding-top: 30px;
-    box-shadow: 0 2px 5px #AAA;
 }
 
 
@@ -179,7 +177,8 @@ address{
 
 .project-title h3{
      text-align: center;
-     margin: 6px 0;
+     margin: 10px 5%;
+     font-weight: normal;
 }
 
 .project-title{
