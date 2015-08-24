@@ -155,16 +155,11 @@ address{
 }
 
 /* Projects */
-#projects-box{
-    padding: 0 30px;
-}
-
 .dvd-cover {
     position: relative; /*Needed for abs-positioned titles*/
-    margin: 9px 18px;
     float: left;
-    width: 144px;
-    height: 205px;
+    width: 192px;
+    height: 273px;
 }
 
 .dvd-cover > img{
