@@ -156,6 +156,51 @@ address{
     margin: 9px 0 0;
 }
 
+/* Projects */
+#projects-box{
+    padding: 0 30px;
+}
+
+.dvd-cover {
+    position: relative; /*Needed for abs-positioned titles*/
+    margin: 9px 18px;
+    float: left;
+    width: 144px;
+    height: 205px;
+}
+
+.dvd-cover > img{
+    width: 100%;
+}
+
+.dvd-cover:not(:hover) > .show-on-hover{
+    display: none;
+}
+
+.project-title h3{
+     text-align: center;
+     margin: 6px 0;
+}
+
+.project-title{
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.fadebox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+}
+
 /* Footer */
 footer{
     height: 36px;
