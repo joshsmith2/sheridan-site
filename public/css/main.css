@@ -4,7 +4,6 @@ html{
 body{
     margin: -10px auto 0;
     font-family: 'Futura LT Light', sans-serif;
-    padding-bottom: 180px;
     max-width: 1700px;
     background-color: #eee;
 }
@@ -55,7 +54,7 @@ button{
 }
 
 .text-container {
-    padding: 36px;
+    padding: 0 36px;
     overflow: hidden;
 }
 
@@ -65,33 +64,59 @@ button{
 
 /* Title bar */
 
+#main-title{
+    margin: 0 auto;
+}
+
 #main-title h1{
     font-size: 2.2em;
 }
 
-#title-bar{
+#main-title, .section-title{
+    width: 960px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin: 64px auto;
+}
+
+.section-title > *{
+    display: inline-block;
+}
+
+#main-title > *{
+    margin: 0 auto;
+}
+
+.picture-bar{
     width: 100%;
     height: 206px;
-    background-image: url('../img/album-cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 174px;
 }
 
-/* Titles */
-.title{
-    width: 960px;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    margin: 0 auto 30px auto;
+#top-bar{
+    background-image: url('../img/album-cover.jpg');
 }
 
+#bottom-bar{
+    background-image: url('../img/album-cover-bottom.jpg');
+}
+
+
+
+/* Titles */
 .title > *{
     margin: 0 auto;
 }
 
 h1{
+    margin: 0;
     font-size: 2em;
     font-family: "Futura LT Heavy", sans-serif;
     letter-spacing: 5px;
@@ -104,11 +129,38 @@ h2{
     letter-spacing: 2px;
 }
 
+h3{
+    margin-top: 0
+}
+/* Make margins simpler */
+p.first{
+    margin-top: 0;
+}
+
+p.last{
+    margin-bottom: 0
+}
+
 /* hack to keep text centered with letter-spacing */
 .last-letter{
     letter-spacing: 0;
 }
 
+.split-line{
+    width: 45%;
+    border-top: 2px solid black;
+    height: 10px;
+}
+
+.split-line-left{
+    margin-left: -50%;
+    margin-right: 5%;
+}
+
+.split-line-right{
+    margin-right: -50%;
+    margin-left: 5%;
+}
 
 /* Video */
 .slide{
@@ -136,13 +188,14 @@ h2{
 }
 
 #contacts{
-    padding: 30px 0 100px 120px;
+    padding: 0 0 100px 120px;
     width: 840px;
 }
 
 .contact-details{
     width: 240px;
     margin-right: 40px;
+    float: left;
 }
 
 .names h4{
@@ -168,6 +221,10 @@ address{
 }
 
 /* Projects */
+#projects-box{
+    overflow-y: hidden; /* Forces parent to be full height */
+}
+
 .dvd-cover {
     position: relative; /*Needed for abs-positioned titles*/
     width: 192px;
