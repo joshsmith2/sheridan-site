@@ -147,6 +147,7 @@ p.last{
 }
 
 .split-line{
+    display: none;
     width: 45%;
     border-top: 2px solid black;
     height: 10px;
