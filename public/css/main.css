@@ -35,6 +35,17 @@ button{
     overflow-x: hidden;
 }
 
+#video-box{
+    padding: 111px 0 0 30px;
+    background-color: black;
+}
+
+#video-box p{
+    color: white;
+    width: 960px;
+    margin: 24px auto;
+}
+
 #video-slider {
 	width: 960px;
 	height: 540px;
@@ -50,7 +61,6 @@ button{
 #main-container{
     width: 960px;
     margin: auto;
-    padding-top: 120px;
 }
 
 .text-container {
