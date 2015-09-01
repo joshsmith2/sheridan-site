@@ -74,7 +74,7 @@ button{
 
 #main-title, .section-title{
     width: 960px;
-    font-weight: 300;
+    font-weight: normal;
     color: black;
     text-align: center;
     margin: 0 auto;
@@ -115,6 +115,10 @@ button{
     margin: 0 auto;
 }
 
+h1, h2, h3{
+    font-weight: normal;
+}
+
 h1{
     margin: 0;
     font-size: 2em;
@@ -123,7 +127,6 @@ h1{
 }
 
 h2{
-    font-weight: 400;
     font-size:  1.1em;
     margin: 0 auto;
     letter-spacing: 2px;
@@ -242,7 +245,6 @@ address{
 .project-title h3{
      text-align: center;
      margin: 10px 5%;
-     font-weight: normal;
 }
 
 .project-title{
