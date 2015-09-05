@@ -36,15 +36,8 @@ button{
 }
 
 #video-box{
-    padding: 90px 0 0 30px;
-    background-color: black;
 }
 
-#video-box p{
-    color: white;
-    width: 960px;
-    margin: 24px auto;
-}
 
 #video-slider {
 	width: 960px;
@@ -59,6 +52,7 @@ button{
 
 /* Containers */
 #main-container{
+    padding: 92px;
     width: 960px;
     margin: auto;
 }
@@ -185,7 +179,7 @@ p.last{
 }
 
 #contacts{
-    padding:0 0 100px 120px;
+    padding-left: 120px;
     width: 840px;
 }
 
