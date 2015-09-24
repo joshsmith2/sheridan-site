@@ -9,7 +9,6 @@ footer{
     text-transform: uppercase;
     bottom:0;
     /* A quick hack before responsive stuff is built */
-    min-width: 1024px;
 }
 
 footer > a {
