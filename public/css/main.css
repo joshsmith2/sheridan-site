@@ -369,8 +369,7 @@ progress::-moz-progress-bar{
 }
 
 
-/* Breakpoints */
-@media only screen and (max-width: 1020px){
+@media only screen and (max-width: 1040px){
     #main-container, .section-title, .video-slider #gallery-slider{
         width: 720px;
     }
@@ -404,7 +403,7 @@ progress::-moz-progress-bar{
 
 }
 
-@media only screen and (max-width: 730px){
+@media only screen and (max-width: 800px){
     #main-container, .section-title, .video-slider{
         width: 480px;
     }
