@@ -417,3 +417,30 @@ progress::-moz-progress-bar{
     }
 
 }
+
+@media only screen and (max-width: 560px) {
+
+    #main-container, .section-title, .video-slider{
+        width: 240px;
+    }
+
+    #gallery-slider li{
+        height: 160px;
+    }
+
+    #main-title{
+        width: 285px
+    }
+
+    #main-title h1{
+        font-size: 1.5em
+    }
+
+    #main-title h2{
+        font-size: 0.8em
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+}
