@@ -370,7 +370,7 @@ progress::-moz-progress-bar{
 
 
 @media only screen and (max-width: 1040px){
-    #main-container, .section-title, .video-slider #gallery-slider{
+    #main-container, .section-title, .video-slider, #gallery-slider{
         width: 720px;
     }
 
@@ -389,7 +389,7 @@ progress::-moz-progress-bar{
     }
 
     footer{
-        min-width: 480px
+        min-width: 350px
     }
     progress{
         display: none;
