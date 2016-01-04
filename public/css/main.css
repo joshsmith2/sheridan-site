@@ -62,6 +62,7 @@ button{
 
 #main-title{
     margin: 0 auto;
+    color: #fff;
 }
 
 #main-title h1{
@@ -72,12 +73,12 @@ button{
     text-align: center;
     width: 480px;
     font-weight: normal;
-    color: black;
     margin: 0 auto;
 }
 
 .section-title{
     margin: 48px auto;
+    color: #000;
 }
 
 .section-title > *{
@@ -97,7 +98,7 @@ button{
 }
 
 #top-bar{
-    background-image: url('../img/album-cover.jpg');
+    background-image: url('../img/header-image.jpg');
     margin-bottom: 96px;
 }
 
