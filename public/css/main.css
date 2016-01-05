@@ -21,10 +21,6 @@ a{
     text-decoration: none;
 }
 
-p{
-    margin: 0;
-}
-
 button{
     background-color: transparent;
     border-width: 0;
@@ -49,7 +45,7 @@ button{
 }
 
 #intro{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 /* Containers */
