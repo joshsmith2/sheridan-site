@@ -21,6 +21,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    margin: 0;
+}
+
 button{
     background-color: transparent;
     border-width: 0;
@@ -42,6 +46,10 @@ button{
 #video-slider {
 	width: 960px;
 	height: 540px;
+}
+
+#intro{
+    margin-top: 48px;
 }
 
 /* Containers */
@@ -89,15 +97,6 @@ button{
     margin: 0 auto;
 }
 
-#top-bar{
-    background-image: url('../img/header-image.jpg');
-    margin-bottom: 96px;
-}
-
-#bottom-bar{
-    background-image: url('../img/album-cover-bottom.jpg');
-    margin-top: 96px;
-}
 
 
 /* Image sections */
@@ -109,6 +108,16 @@ button{
     background-size: cover;
     background-position: center;
     padding-top: 338px;
+}
+
+#top-bar{
+    background-image: url('../img/header.jpg');
+    margin-bottom: 96px;
+}
+
+#bottom-bar{
+    background-image: url('../img/footer.jpg');
+    margin-top: 96px;
 }
 
 .picture-strip {
@@ -215,19 +224,6 @@ p.last{
     width: 620px;
     height: 310px;
     margin: 10px auto;
-}
-
-/* Gallery */
-
-.caption {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    color: white;
-    height: 20px;
-    font-size: 1em;
-    background-color: black;
-    padding: 5px 0 5px 12px;
 }
 
 /* Contacts */
@@ -434,6 +430,21 @@ progress::-moz-progress-bar{
         margin: 0 auto 30px;
     }
 
+    /* Resize image strips */
+
+    #video-strip, #biography-strip{
+        height: 150px;
+    }
+
+    #projects-strip{
+        height: 180px;
+    }
+
+    .picture-bar{
+        height: 280px;
+        padding-top: 206px;
+    }
+
     footer{
         min-width: 350px
     }
@@ -455,12 +466,28 @@ progress::-moz-progress-bar{
         float: none;
     }
 
+    #video-strip, #biography-strip{
+        height: 110px;
+    }
+
+    #top-bar{
+        margin-bottom: 48px;
+    }
+
+    .section-title{
+        margin: 24px auto;
+    }
 }
 
 @media only screen and (max-width: 560px) {
 
     .container, .section-title, .video-slider{
         width: 240px;
+    }
+
+    .picture-bar{
+        height: 220px;
+        padding-top: 168px;
     }
 
     #main-title{
@@ -477,5 +504,13 @@ progress::-moz-progress-bar{
 
     h1{
         font-size: 1.8em;
+    }
+
+    #video-strip, #biography-strip{
+        height: 88px;
+    }
+
+    #projects-strip{
+        height: 120px
     }
 }
