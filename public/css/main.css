@@ -8,6 +8,13 @@ body{
     background-color: #eee;
 }
 
+/* Clearfix */
+.cf:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
 /* Generic formatting */
 .left{
     float: left
@@ -58,10 +65,6 @@ button{
     overflow: hidden;
 }
 
-.slider-wrapper{
-    /*margin-left: -30px;*/
-}
-
 /* Title bar */
 
 #main-title{
@@ -92,8 +95,6 @@ button{
 #main-title > *{
     margin: 0 auto;
 }
-
-
 
 /* Image sections */
 
@@ -175,6 +176,35 @@ button{
     background-image: url('../img/under-projects/1.jpg');
 }
 
+/* cds */
+#downloads-box{
+    width: 784px;
+}
+
+
+.cd{
+    float: left
+}
+
+.cd p {
+    text-align: center;
+}
+
+.cd-cover{
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+}
+
+#cd-1{
+    background-image: url('../img/cds/1.jpg');
+}
+
+#cd-2{
+    background-image: url('../img/cds/2.jpg');
+    margin-left: 64px
+}
+
 /* Titles */
 .title > *{
     margin: 0 auto;
@@ -223,7 +253,7 @@ p.last{
 }
 
 /* Contacts */
-#contacts a{
+a{
     color: rgb(216, 85, 85);
 }
 
