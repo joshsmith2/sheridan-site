@@ -25,8 +25,23 @@
 
     .picture-bar{
         height: 280px;
-        padding-top: 206px;
+        padding-top: 206px
     }
+
+    /* CDs */
+    #downloads-box{
+        width: 664px
+    }
+
+    .cd{
+        width: 300px
+    }
+
+    .cd-cover {
+        height: 270px
+    }
+
+    /* Etc */
 
     footer{
         min-width: 350px
@@ -59,6 +74,14 @@
 
     .section-title{
         margin: 24px auto;
+    }
+
+    #downloads-box{
+        width: 300px
+    }
+
+    #cd-2{
+        margin: 0;
     }
 }
 
