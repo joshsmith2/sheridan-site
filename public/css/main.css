@@ -187,7 +187,8 @@ button{
 
 
 .cd{
-    float: left
+    float: left;
+    width: 360px;
 }
 
 .cd p {
@@ -195,18 +196,26 @@ button{
 }
 
 .cd-cover{
-    width: 360px;
-    height: 360px;
+    width: 100%;
+    height: 324px;
     background-size: cover;
 }
 
 #cd-1{
-    background-image: url('../img/cds/1.jpg');
+
 }
 
 #cd-2{
-    background-image: url('../img/cds/2.jpg');
+
     margin-left: 64px
+}
+
+#cd-wonders{
+    background-image: url('../img/cds/1.jpg');
+}
+
+#cd-stephen{
+    background-image: url('../img/cds/2.jpg');
 }
 
 /* Titles */
@@ -445,102 +454,3 @@ progress::-moz-progress-bar{
 .bx-viewport{
 }
 
-@media only screen and (max-width: 1040px){
-    .container, .section-title, .video-slider{
-        width: 720px;
-    }
-
-    #contacts{
-        padding: 0;
-        text-align: center;
-        width: inherit;
-    }
-
-    .contact-details{
-        margin: 0 auto 30px;
-    }
-
-    /* Resize image strips */
-
-    #video-strip, #biography-strip{
-        height: 150px;
-    }
-
-    #projects-strip{
-        height: 180px;
-    }
-
-    .picture-bar{
-        height: 280px;
-        padding-top: 206px;
-    }
-
-    footer{
-        min-width: 350px
-    }
-    progress{
-        display: none;
-    }
-
-    #right-aligned{
-        width: 84px;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .container, .section-title, .video-slider{
-        width: 480px;
-    }
-
-    .contact-details{
-        float: none;
-    }
-
-    #video-strip, #biography-strip{
-        height: 110px;
-    }
-
-    #top-bar{
-        margin-bottom: 48px;
-    }
-
-    .section-title{
-        margin: 24px auto;
-    }
-}
-
-@media only screen and (max-width: 560px) {
-
-    .container, .section-title, .video-slider{
-        width: 240px;
-    }
-
-    .picture-bar{
-        height: 220px;
-        padding-top: 168px;
-    }
-
-    #main-title{
-        width: 285px
-    }
-
-    #main-title h1{
-        font-size: 1.5em
-    }
-
-    #main-title h2{
-        font-size: 0.8em
-    }
-
-    h1{
-        font-size: 1.8em;
-    }
-
-    #video-strip, #biography-strip{
-        height: 88px;
-    }
-
-    #projects-strip{
-        height: 120px
-    }
-}
