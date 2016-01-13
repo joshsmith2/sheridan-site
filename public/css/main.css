@@ -35,6 +35,10 @@ button{
     padding: 0;
 }
 
+.questionmark{
+    font-family: serif;
+}
+
 /* Slider */
 .slider{
     list-style: none;
