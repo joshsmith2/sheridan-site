@@ -183,6 +183,7 @@ button{
 /* cds */
 #downloads-box{
     width: 784px;
+    overflow: hidden;
 }
 
 
