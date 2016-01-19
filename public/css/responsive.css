@@ -56,7 +56,7 @@
 }
 
 @media only screen and (max-width: 800px){
-    .container, .section-title, .video-slider{
+    .container, .section-title, .video-slider, #mc_embed_signup input.email{
         width: 480px;
     }
 
@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 560px) {
 
-    .container, .section-title, .video-slider{
+    .container, .section-title, .video-slider, #mc_embed_signup input.email{
         width: 240px;
     }
 
