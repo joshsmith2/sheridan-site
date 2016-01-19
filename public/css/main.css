@@ -56,6 +56,7 @@ button{
 }
 
 #intro{
+    text-align: center;
     margin-top: 32px;
 }
 
@@ -180,7 +181,7 @@ button{
     background-image: url('../img/under-projects/1.jpg');
 }
 
-/* cds */
+/* CDs */
 #downloads-box{
     width: 784px;
     overflow: hidden;
@@ -450,8 +451,5 @@ progress::-moz-progress-bar{
     list-style:none;
     margin:0;
     padding:0
-}
-
-.bx-viewport{
 }
 
