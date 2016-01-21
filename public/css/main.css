@@ -347,14 +347,6 @@ address{
 #mailing-blurb{
     text-align: center;
 }
-
-#mailing-disclaimer{
-    text-align: center;
-    font-size: 0.8em;
-    font-style: italic;
-    color: #333;
-}
-
 /* Footer - see separate stylesheet*/
 
 /* Plangular soundcloud player */
