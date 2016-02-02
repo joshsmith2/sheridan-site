@@ -25,6 +25,7 @@ body{
 }
 
 a{
+    color: rgb(216, 85, 85);
     text-decoration: none;
 }
 
@@ -79,6 +80,10 @@ button{
 
 #main-title h1{
     font-size: 2.2em;
+}
+
+#main-title a{
+    color: #fff;
 }
 
 #main-title, .section-title{
@@ -268,9 +273,7 @@ p.last{
 }
 
 /* Contacts */
-a{
-    color: rgb(216, 85, 85);
-}
+
 
 #contacts{
     padding-left: 120px;
@@ -457,3 +460,31 @@ progress::-moz-progress-bar{
     padding:0
 }
 
+input.button{
+    clear: both;
+    -webkit-appearance: none;
+    background-color: #eee;
+    border: 1px black solid;
+    border-radius: 1px;
+    color: #000000;
+    font-family: "Futura LT Heavy", sans-serif;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 3px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    display: block;
+    width: 180px;
+    margin: 12px auto;
+    min-width: 90px;
+
+}
+
+input.button:hover{
+    background-color: rgb(216,85,85);
+}

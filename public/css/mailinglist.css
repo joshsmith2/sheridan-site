@@ -11,37 +11,9 @@
     font-size:1.4em;
     }
 
-#mc_embed_signup input {
-    border: none;
-    font-family: 'Futura LT Light', sans-serif;
-    -webkit-appearance:none;
-    }
-
 #mc_embed_signup input:focus {
     border-color:#333;
     outline-color: rgb(216, 85, 85);
-    }
-
-#mc_embed_signup .button {
-    clear:both;
-    background-color: #eee;
-    border: 1px black solid;
-    border-radius: 1px;
-    color: #000000;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Futura LT Heavy", sans-serif;
-    font-size:1em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    height: 32px;
-    line-height: 32px;
-    padding:0 0 0 3px;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: top;
-    white-space: nowrap;
-    width: auto;
     }
 
 #mc_embed_signup .button:hover {
@@ -77,15 +49,6 @@
     min-width:130px;
     font-size: 1em;
     }
-
-
-#mc_embed_signup input.button {
-    display:block;
-    width:180px;
-    margin:12px auto;
-    min-width:90px;
-    }
-
 
 #mc_embed_signup div#mce-responses {
     float:left;
