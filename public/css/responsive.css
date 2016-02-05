@@ -42,16 +42,15 @@
     }
 
     /* Etc */
-
     footer{
-        min-width: 350px
+        min-width: 371px
     }
     progress{
         display: none;
     }
 
     #right-aligned{
-        width: 84px;
+        width: 102px;
     }
 }
 
