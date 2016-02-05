@@ -443,6 +443,14 @@ progress::-moz-progress-bar{
     background-color: #fff;
 }
 
+.social-logo{
+    fill: #000
+}
+
+.social-logo:hover{
+    fill: rgb(216,85,85)
+}
+
 #twitter-logo{
     width: 24px;
     height: 24px;
@@ -453,6 +461,11 @@ progress::-moz-progress-bar{
     width: 30px;
     height: 30px;
     margin: 3px 8px 0 0;
+}
+
+#facebook-logo{
+    width: 28px;
+    margin: 1px -2px 0 -2px
 }
 
 #soundcloud-player a{
