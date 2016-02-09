@@ -122,6 +122,10 @@ button{
     padding-top: 100px;
 }
 
+#thanks-title p{
+    width: 100%
+}
+
 #top-bar{
     background-image: url('../img/header.jpg');
     margin-bottom: 96px;
