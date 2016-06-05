@@ -3,7 +3,7 @@ html{
 
 body{
     margin: -10px auto 0;
-    font-family: 'Futura LT Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 1700px;
     background-color: #eee;
 }
@@ -246,7 +246,7 @@ h1, h2, h3{
 h1{
     margin: 0;
     font-size: 2em;
-    font-family: "Futura LT Heavy", sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 5px;
 }
 
